@@ -1,0 +1,16 @@
+.calculator {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+  }
+  

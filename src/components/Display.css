@@ -1,0 +1,18 @@
+.display {
+    background-color: #1d1d1d9f;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .input {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  .result {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  

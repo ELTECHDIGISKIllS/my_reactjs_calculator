@@ -1,0 +1,31 @@
+.button {
+    border: none;
+    background: #f7f7f7;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .button.operator {
+    background-color: #f4a261;
+    color: white;
+  }
+  
+  .button.operator:hover {
+    background-color: #e07b39;
+  }
+  
+  .button.double {
+    grid-column: span 2;
+  }
+  
